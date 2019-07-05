@@ -3,9 +3,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 from datetime import datetime
 
-browser = webdriver.Chrome(executable_path=r'/home/pruthvi/Downloads/chromedriver_linux64/chromedriver')
+browser = webdriver.Chrome(executable_path=r'path to your chromedriver')
 
-
+# BSE IDs are fed as a list
+# Example -->
 bseIDs = [500285, 520139, 532617, 532773, 539448]
 
 
